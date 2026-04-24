@@ -16,9 +16,11 @@
         }
     },
     "extra": {
+        "installer-name": "bootswatcher",
         "expose": [
             "dist/css",
-            "dist/js"
+            "dist/js",
+            "dist/img"
         ]
     },
     "prefer-stable": true,
