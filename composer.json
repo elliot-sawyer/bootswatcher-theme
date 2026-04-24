@@ -1,6 +1,7 @@
 {
     "name": "elliotsawyer/bootswatcher-theme",
     "type": "silverstripe-theme",
+    "license": "MIT",
     "description": "Bootstrap 5 Silverstripe theme with support for Bootswatch theme switching. Includes the default Bootstrap stylesheet out of the box. Install elliotsawyer/bootswatcher for full CMS-based theme picking.",
     "require": {
         "php": "^8.3",
@@ -16,9 +17,11 @@
         }
     },
     "extra": {
+        "installer-name": "bootswatcher",
         "expose": [
             "dist/css",
-            "dist/js"
+            "dist/js",
+            "dist/img"
         ]
     },
     "prefer-stable": true,
